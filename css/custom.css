@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "saman";
+  src: url("../fonts/SAMAN___.TTF");
+  font-weight: normal;
+  font-size: normal;
+}
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bgimg {
+  background-image: url(../img/bg2.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 640px;
+}
+nav {
+  background-color: #563d7c;
+}
+.headerset {
+  padding-top: 230px;
+  box-sizing: border-box;
+}
+.headerset h2 {
+  font-size: 52px;
+  text-align: left;
+}
+.headerset h1 {
+  font-size: 82px;
+  font-weight: bold;
+}
+.ttl {
+  font-family: "saman";
+  font-weight: bold;
+  font-size: 30px;
+}
+.navi li {
+  border-radius: 5px;
+  margin: 3px;
+}
+.navi li a:hover {
+  border-radius: 5px;
+  color: #ba8b00;
+  background-color: rgb(255, 244, 239);
+  transition: ease;
+}
+/* ................................................................ */
+.note {
+  height: 50px;
+  width: 100%;
+  background-color: #563d7c;
+  box-sizing: border-box;
+  display: flex;
+}
+.note marquee {
+  margin-left: 0;
+  padding: 10px;
+  font-size: 20px;
+  color: #f0ad4e;
+}
+.note p {
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 20px;
+  color: #f0ad4e;
+}
+.note a {
+  text-decoration: none;
+  color: #f0ad4e;
+  text-transform: capitalize;
+}
+/* .......................................................................... */
+.podcast-release {
+  width: 100%;
+  height: 630px;
+  background-color: cornsilk;
+}
+.podcast-release h1,
+.ourteam h1 {
+  text-transform: uppercase;
+  font-size: 42px;
+  padding-top: 70px;
+}
+.podcast-release .card {
+  margin-top: 20px;
+}
+.card-title {
+  font-size: 30px;
+}
+.card-footer .btn {
+  width: 120px;
+}
+/* ............................................................................ */
+.ourteam {
+  width: 100%;
+  height: 700px;
+  background-color: #f8f9fa;
+}
+.ourteam .card {
+  background-color: #f8f9fa;
+  margin-top: 20px;
+  border: none;
+}
+/* .............................................................................. */
+.contact {
+  background-color: #563d7c;
+  width: 100%;
+  height: 450px;
+}
+.contact .address-box {
+  /* border: 1px solid red; */
+  height: 400px;
+  width: 350px;
+  justify-content: space-around;
+}
+.address-box a {
+  text-decoration: none;
+}
+.address-box h2 {
+  font-family: saman;
+}
+.fa-twitter {
+  color: #2196f3;
+}
+.fa-facebook {
+  color: #3f51b5;
+}
+.fa-instagram {
+  color: #e91e63;
+}
+.fa-youtube {
+  color: #eb3b5a;
+}
+/* /////////////////////////////////////////////////////// */
+/* /////////////////responsive/////////////////////////// */
+@media (max-width: 600px) {
+  .podcast-release {
+    height: 3200px;
+  }
+  .ourteam {
+    height: 1800px;
+  }
+  .contact {
+    height: 1200px;
+  }
+}
